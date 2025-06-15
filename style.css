@@ -1,0 +1,114 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 350px;
+}
+
+.login-box {
+  background: white;
+  border: 1px solid #dbdbdb;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  background: #fafafa;
+}
+
+.password-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+#togglePassword {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button {
+  width: 100%;
+  padding: 8px;
+  background: #0095f6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.separator {
+  margin: 20px 0;
+  text-align: center;
+  width: 100%;
+  color: #999;
+  font-size: 14px;
+  position: relative;
+}
+
+.separator::before,
+.separator::after {
+  content: "";
+  height: 1px;
+  background: #dbdbdb;
+  position: absolute;
+  top: 50%;
+  width: 40%;
+}
+
+.separator::before {
+  left: 0;
+}
+.separator::after {
+  right: 0;
+}
+
+.fb-login {
+  color: #385185;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.forgot {
+  color: #00376b;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.signup-box {
+  background: white;
+  border: 1px solid #dbdbdb;
+  text-align: center;
+  padding: 20px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.signup-box a {
+  color: #0095f6;
+  text-decoration: none;
+  font-weight: bold;
+}
